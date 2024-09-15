@@ -1,0 +1,255 @@
+/*navbar*/
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fa-solid {
+ color:  #ffbe33;
+}
+
+.navbar{
+    background: black ;
+    font-weight: 400;
+    color: white;
+    
+
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+  }
+
+   .navbar-brand{
+    color:white;
+        font-weight: bold;
+        font-size: 32px;
+        color: #ffffff;
+        padding-right: 50px;
+    }
+  
+  .custom_nav-container .navbar-nav .nav-item:hover .nav-link{
+    color: #ffbe33;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+  .user_option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.user_option .user_link {
+    color: #ffffff;
+}
+
+.user_option a {
+    margin: 0 10px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.user_option .order_online {
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+}
+
+.user_option .cart_link {
+    color: #ffffff;
+}
+
+/* Home  */
+
+  .container-fluid{
+    background-color: black;
+  }
+.title h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 20px;
+    font-family:'Dancing Script', 'cursive';
+}
+
+.title p{
+    color: #f9bf29;
+    margin-left: 20px;
+    text-align: center;
+    font-family:'Dancing Script', 'cursive';
+}
+
+ .btn{
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px
+ }
+
+ .btn.btn-primary{
+    color: #2f2f2f;
+    background: #f9bf29;
+    border-color: #f9bf29;
+    border-radius: 45px;
+    font-size: 24px;
+    margin-left: 200px;
+    
+ }
+
+ .btn.btn-primary:hover{
+    background-color: white;
+    color: #f9bf29;
+ }
+
+ /* Menu */
+ h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    flex-basis: calc(33.33% - 20px); /* Adjust the width of the menu items */
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+  }
+
+.menu .menu-item .img-box {
+    background: #f1f2f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 215px;
+    border-radius: 0 0 0 45px;
+    margin: -1px;
+    padding: 25px;
+}
+
+/* about us*/
+.about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .about p{
+    text-align: center;
+    font-weight: bold;
+    color: #f9bf29;
+  }
+  
+  .about .about-img{
+    max-width: 200px;
+        margin-bottom: 20px;
+  }
+  
+  .contact-section .form-group {
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+  .contact .contact-img{
+    max-width: 200px;
+        margin-left: 80%;
+  }
+  .btn1{
+    color: #2f2f2f;
+    background: #f9bf29;
+    border-color: #f9bf29;
+    border-radius: 45px;
+    font-size: 24px;
+    margin-left: 100px;
+  }
+
+
+  
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .footer ul li:last-child {
+    margin-right: 0;
+  }
+  .footer ul li a {
+    color: #333;
+  }
+  .footer .social-icons {
+    margin-bottom: 20px;
+  }
+  .footer .social-icons a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  
+  
+  
